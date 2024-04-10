@@ -1,4 +1,4 @@
-# An-alternative-text-editor-to-write-and-run-your-STATA-code
+# Creating maps in STATA
 A few recent chats about fast ways to create decent maps with my DPhil colleagues have motivated this blog post. While R, QGIS and other programmes are certainly more powerful when it comes to creating cool maps, the popular spmap Stata command has a bunch of cool, often overlooked, features. 
 
 Let’s say we need to map county level statistics compiled by the Kenyan National Bureau of Statistics on the number of formal firm establishments in Kenya. In addition, we want to highlight the largest cities and their population size. Finally, we would like to add information on the set-up of the major urban centres and what share of their population is concentrated in core areas vs the periphery. 
