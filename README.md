@@ -1,3 +1,6 @@
+
+![CC Graphics 2024_CreatingMaps](https://github.com/csae-coders-corner/Creating-maps-in-STATA/assets/148211163/26bd9f3a-ea1f-4d6a-aa06-af5e8295de6d)
+
 # Creating maps in STATA
 A few recent chats about fast ways to create decent maps with my DPhil colleagues have motivated this blog post. While R, QGIS and other programmes are certainly more powerful when it comes to creating cool maps, the popular spmap Stata command has a bunch of cool, often overlooked, features. 
 
