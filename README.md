@@ -111,6 +111,7 @@ In some cases, our complementary data might be expressed in another spatial refe
 `use cities_population, clear`
 
 *Transform the geographic latitude and longitude into cartesian coordinates 
+
 `geo2xy latitude longitude , generate(y_lat x_long) proj(mercator, 6378137 298.257223563 0)`
 
 Two very useful related sources are [this](https://www.statalist.org/forums/forum/general-stata-discussion/general/1447786-spmap-create-rectangles-to-show-labels-and-colors-for-small-jurisdictions-in-choropleth-maps) forum post by Robert Picard, who discusses how to improve the legend of your map, and [these slides](https://ideas.repec.org/p/boc/isug14/08.html) by Maurizio Pisati that discuss more features of the command and other cool applications like mapping Lombarida’s rail network.
