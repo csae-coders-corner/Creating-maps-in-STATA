@@ -110,7 +110,7 @@ In some cases, our complementary data might be expressed in another spatial refe
 
 `use cities_population, clear`
 
-*Transform the geographic latitude and longitude into cartesian coordinates 
+Transform the geographic latitude and longitude into cartesian coordinates:
 
 `geo2xy latitude longitude , generate(y_lat x_long) proj(mercator, 6378137 298.257223563 0)`
 
