@@ -109,6 +109,7 @@ graph export peri_core_urban.png, replace
 In some cases, our complementary data might be expressed in another spatial reference system than our base map. It is quite common for geographic locations to be expressed in geo-coordinates (like the Kenyan cities above), but we need cartesian coordinates instead (you will notice that when calling spmap either your base map or the points are completely off). Luckily there is a handy Stata command called geo2xy that transforms geographic latitude and longitude into cartesian coordinates. 
 
 `use cities_population, clear`
+
 *Transform the geographic latitude and longitude into cartesian coordinates 
 `geo2xy latitude longitude , generate(y_lat x_long) proj(mercator, 6378137 298.257223563 0)`
 
